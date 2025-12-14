@@ -1,21 +1,21 @@
 #include <stdio.h>   /* printf üçün */
 #include <stdlib.h>  /* rand, srand, RAND_MAX üçün */
-#include <time.h>    /* time () üçün */
+#include <time.h>    /* time() üçün */
 
-int main (void)
+int main(void)
 {
 	int n;
 
-	srand (time(0));
-	n = rand () - RAND_MAX / 2;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-	printf ("%d is ", n);
+	printf("%d is ", n);
 	if (n > 0)
-		printf ("positive\n");
+		printf("positive\n");
 	else if (n == 0)
-		printf ("zero\n");
+		printf("zero\n");
 	else
-		printf ("negative\n");
+		printf("negative\n");
 
-	return (0);
+	return(0);
 }
