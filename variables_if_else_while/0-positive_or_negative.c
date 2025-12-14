@@ -1,6 +1,7 @@
-#include <stdio.h>   // printf üçün
-#include <stdlib.h>  // rand, srand, RAND_MAX üçün
-#include <time.h>    // time üçün
+#include <stdio.h>   /* printf üçün */
+#include <stdlib.h>  /* rand, srand, RAND_MAX üçün */
+#include <time.h>    /* time() üçün */
+
 int main(void)
 {
     int n;
