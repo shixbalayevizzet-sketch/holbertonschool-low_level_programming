@@ -14,8 +14,7 @@ int main(void)
 	int last_digit;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2; /* <-- Bu sətirin sonu təmizlənməlidir (Sətir 18) */
-	
+	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
 
 	printf("Last digit of %d is %d", n, last_digit);
@@ -28,9 +27,9 @@ int main(void)
 	{
 		printf(" and is 0\n");
 	}
-	else 
+	else
 	{
-		printf(" and is less than 6 and not 0\n"); /* <-- Bu sətirin sonu təmizlənməlidir (Sətir 31) */
+		printf(" and is less than 6 and not 0\n");
 	}
 
 	return (0);
