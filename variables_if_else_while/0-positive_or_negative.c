@@ -1,7 +1,11 @@
 #include <stdio.h>   /* printf üçün */
 #include <stdlib.h>  /* rand, srand, RAND_MAX üçün */
 #include <time.h>    /* time() üçün */
-
+/**
+ * main - prints whether a random number is positive, zero, or negative
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
