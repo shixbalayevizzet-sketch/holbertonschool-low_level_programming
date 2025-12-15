@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - prints the lowercase alphabet followed by a new line
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	char c;
