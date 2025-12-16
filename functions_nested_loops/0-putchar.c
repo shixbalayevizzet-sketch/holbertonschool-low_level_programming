@@ -1,10 +1,8 @@
 #include <unistd.h>
-
-/* _putchar funksiyasının prototipi - Kompayler xəta verməsin deyə mütləqdir */
-int _putchar(char c);
+#include "main.h"
 
 /**
- * main - prints _putchar, followed by a new line
+ * main - Prints _putchar followed by a new line
  *
  * Return: Always 0 (Success)
  */
