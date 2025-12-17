@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Programın giriş noktası
+ * main - Entry point
  *
- * Return: Her zaman 0 (Başarı)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-    puts("\"Programming is like building a multilingual puzzle");
-    return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
