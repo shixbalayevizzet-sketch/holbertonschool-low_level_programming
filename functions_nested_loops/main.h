@@ -5,7 +5,7 @@
 int _putchar(char c);
 int _islower(int c);
 /* print_alphabet funksiyasının prototi */
-
+void jack_bauer(void);
 
 
 
