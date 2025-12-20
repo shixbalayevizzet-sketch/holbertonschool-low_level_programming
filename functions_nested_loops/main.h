@@ -5,7 +5,7 @@
 int _putchar(char c);
 int _islower(int c);
 /* print_alphabet funksiyasının prototi */
-int print_last_digit(int);
+
 
 
 
