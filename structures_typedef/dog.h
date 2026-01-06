@@ -1,20 +1,12 @@
-#ifndef DOG_H
-#define DOG_H
+#include "dog.h"
 
-/**
- * struct dog - a dog's basic info
- * @name: First member
- * @age: Second member
- * @owner: Third member
- */
-struct dog
+int main(void)
 {
-	char *name;
-	float age;
-	char *owner;
-};
+    dog_t my_dog; // No need for the 'struct' keyword here
 
-void print_dog(struct dog *d);
-void init_dog(struct dog *d, char *name, float age, char *owner);
+    my_dog.name = "Ghost";
+    my_dog.age = 4.75;
+    my_dog.owner = "Jon Snow";
 
-#endif /* DOG_H */
+    return (0);
+}
