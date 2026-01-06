@@ -7,7 +7,7 @@
  * @age: Second member
  * @owner: Third member
  *
- * Description: Longer description
+ * Description: Basic struct for a dog
  */
 struct dog
 {
@@ -16,4 +16,4 @@ struct dog
 	char *owner;
 };
 
-#endif 
+#endif
