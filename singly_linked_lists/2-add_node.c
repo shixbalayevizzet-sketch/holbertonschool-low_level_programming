@@ -13,7 +13,6 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *new_node;
 	unsigned int len = 0;
 
-	/* Calculate length of string manually or with strlen */
 	while (str && str[len])
 		len++;
 
@@ -30,7 +29,7 @@ list_t *add_node(list_t **head, const char *str)
 
 	new_node->len = len;
 	new_node->next = *head;
-	*head = new_node;      
+	*head = new_node;
 
 	return (new_node);
 }
