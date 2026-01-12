@@ -20,5 +20,5 @@ typedef struct list_s
 
 /* Use a pointer (*) for the parameter h */
 size_t print_list(const list_t *h);
-
+size_t list_len(const list_t *h);
 #endif
